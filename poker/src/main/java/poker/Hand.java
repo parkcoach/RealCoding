@@ -14,6 +14,10 @@ public class Hand {
         handList.add(card);
     }
 
+    public List<Card> getHandList() {
+        return handList;
+    }
+
     public int getCardCount() {
         return handList.size();
     }
